@@ -84,6 +84,7 @@ test:
 #
 production:
   <<: *default
+  host: 10.40.4.208
   database: blog_production
   username: app
   password: app
